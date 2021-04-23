@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="840dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:background="@color/dhlRed"
+    android:clickable="false">
+
+    <TextView
+        android:id="@+id/txtNoSeq"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textSize="70px"
+        android:layout_weight="1"
+        android:text="1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+            <TextView
+            android:id="@+id/txtShipmentId"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="XX"
+            android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/txtDeliveryCity"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="XX"
+                android:textSize="27dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Total Qty"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textTotalQty"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="00"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

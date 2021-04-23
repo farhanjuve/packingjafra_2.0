@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dhlRed"
+        android:text="Data Server" />
+
+    <EditText
+        android:id="@+id/txtServerData"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="30dp"  />
+
+    <CheckBox
+        android:id="@+id/chkUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dhlRed"
+        android:text="Upload Pictures"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dhlRed"
+        android:text="Image Server" />
+
+    <EditText
+        android:id="@+id/txtServerImage"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnSaveSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnCancelSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cancel" />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d81b60</color>
+    <color name="colorPrimaryDark">#a00037</color>
+    <color name="colorPrimaryLight">#ff5c8d</color>
+    <color name="colorAccent">#D2002E</color>
+    <color name="colorAccentDark">#AD0026</color>
+    <color name="colorAccentLight">#FF0038</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorRipple">@color/white_2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#33FFFFFF</color>
+
+    <color name="dhlRed">#D40511</color>
+    <color name="dhlYellow">#FFCC00</color>
+</resources>

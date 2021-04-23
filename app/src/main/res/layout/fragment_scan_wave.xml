@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+    <EditText
+        android:id="@+id/txtWaveNumberx"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:digits="0123456789"
+        android:hint="Wave Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+    <EditText
+        android:id="@+id/txtWaveNumber"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:digits="0123456789"
+        android:ellipsize="end"
+        android:ems="10"
+        android:hint="Wave Number"
+        android:inputType="numberSigned"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@android:drawable/ic_menu_preferences" />
+
+</LinearLayout>
